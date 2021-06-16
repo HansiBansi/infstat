@@ -3897,13 +3897,13 @@ Die Wahrscheinlichkeit eines Fehlers 2. Art wird von der Wahl von $ T $ und $ R 
 	
 	Berechnung des p-Wertes in diesem Beispiel:
 	
-	$ T\sim Bin\left(\frac{n}{2}, \frac{1}{2}\right) $ unter $ H_0 $. 
+	$ T\sim Bin\left(n, \frac{1}{2}\right) $ unter $ H_0 $. 
 	
 	\[
 	\begin{aligned}
 		\Prob\left(|S|\ge |s| \; |H_0\right) & = \Prob\left(|T-\frac{n}{2}|\ge |s| \; |H_0\right) \\
-		& = \Prob\left(|Bin\left(\frac{n}{2}, \frac{1}{2}\right)-\frac{n}{2}|\ge|s|\right) \\
-		& = \Prob\left(Bin\left(\frac{n}{2}, \frac{1}{2}\right)\le\frac{n}{2}-|s|\right) + \Prob\left(Bin\left(\frac{n}{2}, \frac{1}{2}\right)\ge\frac{n}{2}+|s|\right).
+		& = \Prob\left(|Bin\left(n, \frac{1}{2}\right)-\frac{n}{2}|\ge|s|\right) \\
+		& = \Prob\left(Bin\left(n, \frac{1}{2}\right)\le\frac{n}{2}-|s|\right) + \Prob\left(Bin\left(n{2}, \frac{1}{2}\right)\ge\frac{n}{2}+|s|\right).
 	\end{aligned}
 	\]
 \end{example}
